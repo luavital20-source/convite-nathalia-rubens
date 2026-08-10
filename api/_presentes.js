@@ -11,7 +11,7 @@
  */
 
 const PRESENTES = [
-  { id: 1,  nome: 'Petiscos gourmet da Florida',                            valor: 100 },
+  { id: 1,  nome: 'Petiscos gourmet da Florida',                            valor: 169 },
   { id: 2,  nome: 'Camarote do Safadão',                                     valor: 1000 },
   { id: 3,  nome: 'Café da manhã na cama para os recém-casados',            valor: 250 },
   { id: 4,  nome: 'Ingresso para o próximo Fortal',                          valor: 900 },
@@ -22,14 +22,14 @@ const PRESENTES = [
   { id: 9,  nome: 'Jantar dos 12 anos de amor',                              valor: 2000 },
   { id: 10, nome: 'Massagem para recuperar as energias da noiva',           valor: 350 },
   { id: 11, nome: 'Terapia pós-casamento: “e agora?”',                       valor: 400 },
-  { id: 12, nome: 'Uma dose extra de paciência para os noivos',             valor: 70 },
-  { id: 13, nome: 'Café italiano para começar o dia apaixonados',          valor: 90 },
-  { id: 14, nome: 'Sorvete para sobreviver ao calor da lua de mel',         valor: 100 },
+  { id: 12, nome: 'Uma dose extra de paciência para os noivos',             valor: 230 },
+  { id: 13, nome: 'Café suíço para começar o dia apaixonados',          valor: 199 },
+  { id: 14, nome: 'Sorvete para sobreviver ao calor da lua de mel',         valor: 210 },
   { id: 15, nome: 'Almoço romântico com vista inesquecível',               valor: 500 },
   { id: 16, nome: 'Dia de luxo sem olhar a fatura',                          valor: 1500 },
   { id: 17, nome: 'Passeio inesquecível na lua de mel',                     valor: 2500 },
   { id: 18, nome: 'Terapia preventiva para discutir onde jantar',           valor: 180 },
-  { id: 19, nome: 'Gelato para dividir sem brigar pelo sabor',              valor: 80 },
+  { id: 19, nome: 'Patrocine um beijo abaixo de zero na lua de mel',              valor: 380 },
   { id: 20, nome: 'Passeio sem GPS e sem discutir o caminho',              valor: 600 },
   { id: 21, nome: 'Experiência VIP para colecionar histórias',             valor: 3500 },
   { id: 22, nome: 'Final de semana romântico digno de filme',              valor: 4500 },
