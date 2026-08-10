@@ -9,11 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --blue:#6E8B6A;
-    --blue-deep:#506B4B;
-    --blue-soft:#9CB397;
-    --sage:#C8D3C2;
-    --sage-deep:#8DA386;
+    --blue:#B68608;
+    --blue-deep:#8C6406;
+    --blue-soft:#CBA652;
+    --sage:#E7DAB2;
+    --sage-deep:#BB9327;
     --paper:#F8FAF6;
     --paper-2:#EDF1EA;
     --ink:#1E241C;
@@ -100,7 +100,7 @@
   .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;filter:saturate(.9) contrast(.97);}
   .hero-photo::before{
     content:'';position:absolute;inset:0;z-index:1;
-    background:linear-gradient(180deg, rgba(110,139,106,.08) 0%, rgba(110,139,106,0) 24%, rgba(200,211,194,.05) 100%);
+    background:linear-gradient(180deg, rgba(182,134,8,.08) 0%, rgba(182,134,8,0) 24%, rgba(231,218,178,.05) 100%);
   }
   .hero-cap{
     position:relative;z-index:2;text-align:center;padding:0 28px;margin-top:-86px;
@@ -206,7 +206,7 @@
   .pix-intro{font-size:13.5px;line-height:1.85;color:var(--ink-soft);max-width:400px;margin:40px auto 0;}
   .pix-box{
     display:inline-flex;align-items:center;gap:14px;margin-top:18px;
-    border:1px solid var(--blue-soft);background:rgba(110,139,106,.07);
+    border:1px solid var(--blue-soft);background:rgba(182,134,8,.07);
     border-radius:44px;padding:10px 11px 10px 24px;
   }
   .pix-key{font-family:'Jost',sans-serif;font-weight:400;font-size:16px;letter-spacing:.04em;color:var(--ink);white-space:nowrap;}
@@ -236,7 +236,7 @@
     display:none;align-items:center;gap:9px;cursor:pointer;
     background:var(--paper);border:1px solid var(--blue);color:var(--blue-deep);
     border-radius:40px;padding:9px 16px 9px 13px;
-    box-shadow:0 8px 24px rgba(80,107,75,.22);transition:.3s;
+    box-shadow:0 8px 24px rgba(140,100,6,.22);transition:.3s;
     font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:400;
   }
   #musicToggle:hover{background:var(--blue);color:#fff;border-color:var(--blue);}
@@ -299,7 +299,7 @@
   .cardm-field{display:flex;flex-direction:column;gap:5px;}
   .cardm-field label{font-size:9px;letter-spacing:.22em;text-transform:uppercase;text-indent:.22em;color:var(--blue-deep);}
   .cardm-input{font-family:'Jost',sans-serif;font-size:14px;color:var(--ink);background:rgba(255,255,255,.78);border:1px solid var(--line);border-radius:11px;padding:12px 13px;width:100%;transition:border-color .25s,box-shadow .25s;-webkit-appearance:none;appearance:none;}
-  .cardm-input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(110,139,106,.15);}
+  .cardm-input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(182,134,8,.15);}
   select.cardm-input{cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236E8B6A' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;padding-right:34px;}
   .cardm-row{display:flex;gap:11px;}
   .cardm-row .cardm-field{flex:1;}
@@ -986,7 +986,7 @@ function startMusic(){ try{audio.currentTime=0;}catch(e){} tryPlay(); }
 /* ─── SPLASH: folhas caindo ─── */
 (function(){
   const c=document.getElementById('leaves');
-  const cols=['#C8D3C2','#6E8B6A','#8DA386','#506B4B','#E1E7DC'];
+  const cols=['#E7DAB2','#B68608','#C9A23A','#8C6406','#EBDFC0'];
   for(let i=0;i<22;i++){
     const s=document.createElement('div');s.className='leaf-fall';
     const sz=6+Math.random()*9;
