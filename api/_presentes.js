@@ -40,7 +40,7 @@ const PRESENTES = [
   { id: 27, nome: 'Spa completo para o casal',                              valor: 1500 },
   { id: 28, nome: 'Reserva para nossa próxima aventura em família',        valor: 1800 },
   { id: 29, nome: 'Upgrade para uma suíte dos sonhos',                      valor: 3000 },
-  { id: 30, nome: 'Experiência gastronômica para virar indicação da Nath', valor: 1000 },
+  { id: 30, nome: 'Experiência para virar indicação da Nath', valor: 1000 },
   { id: 31, nome: 'Massagem para o noivo sobreviver aos preparativos',     valor: 350 },
   { id: 32, nome: 'Upgrade estratégico para evitar perrengues',            valor: 700 },
 ];
